@@ -1,0 +1,188 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+
+:lang(en) {
+    font-family: "inter-variable", sans-serif;
+}
+
+
+:lang(ko) {
+    font-family: "pretendard", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+.row {
+    display: flex;
+}
+
+.col1 {
+    width: 16.66%;
+}
+.col2 {
+    width: 33.33%;
+}
+.col3 {
+    width: 50%;
+}
+.col4 {
+    width: 66.66%;
+}
+.col5 {
+    width: 83.32%;
+}
+.col6 {
+    width: 100%;
+}
+
+.bg_green {
+    background-color: greenyellow;
+}
+.bg_pink {
+    background-color: pink;
+}
+
+#menuBar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px 20px 10px 20px;
+}
+
+#menue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    background-color: black;
+    color: #ffffff;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.web_link{
+    color: #000000;
+    margin: 0;
+}
+
+/* 폰트 스타일 */
+
+.logo {
+    width: 8vw;
+}
+
+a{
+    margin: 0 auto;
+}
+
+.sub_t_adress{
+    margin: 0 0 10px 0;
+    color: #000000;
+}
+
+
+.sub_t_adress:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.content {
+    width: 100vw;
+    margin: 10px auto;
+}
+
+.box1,.box2,
+.box3,.box4,
+.box5,.box6,
+.box7,.box8,.box9,
+.box10,.box11,
+.box12,.box13,
+.box14,.box15,
+.box16,.box17,
+.box18,.box19,
+.box20,.box21,
+.box22,.box23,
+.box24,.box25,.box26,.box27,
+.box28 {
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px 20px 5px 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+/*
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,
+.box8:hover,.box9:hover,.box10:hover,.box11:hover,.box12:hover,.box13:hover,.box14:hover,
+.box15:hover,.box16:hover,.box17:hover,.box18:hover,.box19:hover,.box20:hover,.box21:hover,
+.box22:hover,.box23:hover,.box24:hover,.box25:hover,.box26:hover,.box27:hover,.box28 :hover{
+    opacity: 50%;
+}
+*/
+
+.bx_t {
+    font-size: 0.8rem;
+    margin: 0 0 5px;
+    width: 100%;
+    color: white;
+}
+
+.bx_img {
+    width: 100%;
+}
+
+/* footer 영역 */
+.fs {
+    display: flex;
+    justify-content: center;
+    padding: 10px auto;
+    width: 100vw;
+}
+
+.footer_txt {
+    font-size: 0.8rem;
+    color: white;
+}
