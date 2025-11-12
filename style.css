@@ -48,12 +48,6 @@ body {
     width: 100%;
 }
 
-.bg_green {
-    background-color: greenyellow;
-}
-.bg_pink {
-    background-color: pink;
-}
 
 #menuBar {
     display: flex;
@@ -88,20 +82,12 @@ ul {
 }
 ul li a {
     text-decoration: none;
-    color: black;
+    color: #ffffff;
 }
 
 a:active {
     background-color: black;
     color: #ffffff;
-}
-
-a:hover {
-    color: white;
-}
-
-a:visited {
-    color: rgb(255, 255, 255);
 }
 
 .web_link{
